@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+} */
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 70px;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.list-item{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.btn{
+    padding: 12px 20px;
+}
+.list button{
+    margin-left: 40px;
+    border-radius: 0.7em;
+    background-color: #ffffff;
+    border-color: #08AEF5;
+    color: #08AEF5;
+    font-weight: 600;
+}
+.logo img{
+    width: 110px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 70px;
+}
+section div h1{
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0px;
+}
+section div p{
+    padding: 20px 0px;
+    line-height: 30px;
+}
+section img{
+    width: 40%;
+}
+.btn-group{
+    background: linear-gradient(90deg, #08AEF5 0%, #1766dd 100%);
+    border: 0px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 0.7em;
+    box-shadow: #00000059 0px 5px 15px;
+    width: 35%;
+}
+.btn-group:hover{
+    font-weight: 600;
+}
+.section2{
+    margin: 150px 70px;
+}
+.section2 div p{
+    word-spacing: 8px;
+}
+.section2 div{
+    padding-right: 20px;
+}
+.customer{
+    display: inline;
+    padding: 0px 50px;
+    align-items: end;
+    margin-top: 20px;
+}
+.customer-h1{
+    margin-right: 50px;
+}
+.customer-container{
+    margin-top: 100px;
+}
+.service{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    margin: 50px 70px;
+}
+.service div{
+    align-self: center;
+    padding: 20px 40px;
+}
+.service div img{
+    width: 70px;
+}
+@keyframes ex {
+    0%{box-shadow: #00000059 0px 0px 2px};
+    25%{box-shadow: #00000059 0px 1px 5px};
+    50%{box-shadow: #00000059 0px 2px 10px};
+    100%{box-shadow: #00000059 0px 5px 15px};
+}
+.service div:hover{
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 20px;
+    animation: ex 1s 1;
+}
+.price{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* justify-items: center; */
+    /* display: flex; */
+    margin: 20px 60px;
+}
+.price li{
+    /* list-style: circle; */
+    list-style-image: url(photos/circle-check-regular.svg);
+}
+.price div div{
+    margin-left: 20px;
+}
+.plan{
+    margin-left: 40px;
+}
+.all-price{
+    background:linear-gradient(175deg, #08AEF5 30%, #1766dd 90%);
+    padding: 20px 40px;
+}
+.price>div{
+    padding-left: 20px;
+    background-color: #ffffff;
+    margin-left: 60px;
+    padding-bottom: 40px;
+    border-radius: 0.7em;
+    box-shadow: #00000059 0px 5px 15px;
+}
+.plan{
+    background-color: #ffffff;
+    border: 2px solid #1766dd;
+    border-radius: 0.7em;
+    color:#1766dd;
+    font-weight: 600;
+}
+h6{
+    opacity: 0.7;
+}
+.head-price{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: x-large;
+}
+.pl{
+    width: 40%;
+}
+.box-review{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 80px;
+    margin: 0px 40px;
+}
+.review-heading{
+    text-align: center;
+}
+.review{
+    margin: 10px 60px;
+}
+.box-review div div{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+.box-review div div h6{
+    padding-left: 20px;
+}
+.box-review > div{
+    padding: 20px 10px;
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.review{
+    margin-top: 100px;
+}
+.review-heading{
+    padding: 0px 180px;
+    margin-bottom: 50px;
+}
+.quit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 60px;
+    color: #ffffff;
+    margin: 100px 0px;
+}
+.quit{
+    background:linear-gradient(175deg, #08AEF5 20%, #1766dd 50%);
+}
+.quit button{
+    margin: 90px;
+    border: 1px solid #ffffff;
+    background:none;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.quit > div p{
+    font-weight: 300;
+}
+.bottom-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.last-logo{
+    width: 100px;
+    margin-top: 20px;
+}
+.social h4{
+    padding-left: 40px;
+}
