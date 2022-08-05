@@ -241,3 +241,142 @@ h6{
 .social h4{
     padding-left: 40px;
 }
+.fa-bars{
+    display: none;
+}
+
+
+@media screen and (max-width:1245px) {
+    .section-first{
+        flex-direction: column-reverse;
+    }
+    .section2{
+        flex-direction: column;
+    }
+    .section3{
+        flex-direction: column-reverse;
+    }
+    section img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .service{
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+    .customer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-h1{
+        padding: 0px;
+        margin: 0px;
+    }
+    .price{
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 20px;
+    }
+    .price div{
+        margin: 10px;
+    }
+    .review-heading{
+        margin: 0px;
+        padding: 0px;
+    }
+    .box-review{
+        padding: 0px;
+    }
+    .review{
+        padding: 0px;
+        margin: 0px;
+    }
+    .list{
+        display: none;
+    }
+    .section-first h1{
+        font-size: 30px;
+    }
+    .fa-bars{
+        display: flex;
+    }
+    section div h1{
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width:474px) {
+    .service div{
+        padding: 4px;
+    }
+    .service{
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .price{
+        margin: 0px;
+    }
+    .all-price{
+        padding: 10px 0px;
+    }
+    .review{
+        column-gap: 0px;
+        row-gap: 0px;
+        margin: 0px;
+    }
+    .box-review{
+        margin: 0px;
+        width: 100%;
+        column-gap: 10px;
+    }
+    .box-review div{
+        padding: 10px;
+    }
+    .price div div{
+        margin-left: 1px;
+    }
+    .plan{
+        margin: 0px;
+    }
+    .price div{
+        padding: 0px;
+        padding-bottom: 0px;
+    }
+    .pl{
+        width: 50%;
+    }
+    .customer-container p{
+        padding-left: 0px;
+    }
+    .customer-container{
+        margin: 0px;
+    }
+    .quit{
+        flex-direction: column;
+        margin: 0px;
+        padding: 10px;
+    }
+    .bottom-foot{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:379px) {
+    .price{
+        grid-template-columns: 1fr;
+    }
+    .section-first{
+        margin: 20px;
+    }
+    .section2{
+        margin: 20px;
+    }
+    .section3{
+        margin: 20px;
+    }
+    .btn-group{
+        width: 50%;
+    }
+}

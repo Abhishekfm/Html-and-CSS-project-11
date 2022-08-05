@@ -8,8 +8,7 @@
 
 ![Project 11 Image](eleven.png)
 
-In this project I lerned about grid which helped me with service section by use of grid things become bit easy it have most helful functionality as row-gap and column-gap.
-
+In this project I learned about the grid which helped me with the service section by the use of the grid things become a bit easy it have the most helpful functionality as row-gap and column-gap.
 #
 
 ### Duration Of Completing this project
